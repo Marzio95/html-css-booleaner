@@ -13,9 +13,10 @@ body{
 
 /* posiziono correttamente il logo */
 .logo1{
-    width: 10%;
+    width: 20%;
     position: absolute;
-    bottom: 5px;
+    bottom: 10px;
+    left: 5px;
 }
 
 /* imposto le caratteristiche del titolo,sottotitoli,link */
