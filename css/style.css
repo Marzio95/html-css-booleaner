@@ -1,0 +1,15 @@
+/* al div do l imm di sfondo con le relative caratteristiche */
+.testata{
+    height: 100px;
+    background-color: deepskyblue;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    position: relative;
+}
+
+/* posiziono correttamente il logo */
+.logo1{
+    width: 10%;
+    position: absolute;
+    bottom: 5px;
+}
