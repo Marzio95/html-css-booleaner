@@ -1,0 +1,110 @@
+body{
+    width: 100%;
+}
+
+/* al div do l imm di sfondo con le relative caratteristiche */
+.testata{
+    height: 100px;
+    background-color: deepskyblue;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    position: relative;
+}
+
+/* posiziono correttamente il logo */
+.logo1{
+    width: 10%;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+}
+
+/* imposto le caratteristiche del titolo,sottotitoli,link */
+h1{
+    margin-bottom: 1px;
+}
+
+.sottotitolo{
+    color: gray;
+    display: block;
+}
+
+.sottotitolo2{
+    color: gray;
+    display: block;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.img-description{
+    display: block;
+    font-size: small;
+}
+
+.sottolineato{
+    background-color: yellow;
+}
+
+/* imposto le caratteristiche della tabella */
+table{
+    width: 1010px;
+    border-collapse: collapse;
+    table-layout:fixed
+}
+
+.riga-head{
+    color: white;
+    background-color: #039BE5;
+}
+
+tr{
+    text-align: left;
+    border: none;
+}
+
+.riga-blu{
+    background-color: #B3E5FC
+}
+
+/* imposto le caratteristiche del footer */
+h3{
+    color: gray;
+}
+
+.img-finale1{
+    width: 200px;
+    height: 150px;
+    background-image: url(../img/monitor.jpg);
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.img-finale2{
+    width: 200px;
+    height: 150px;
+    background-image: url(../img/graph.jpg);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.testo-img-finale{
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-weight: bold;
+}
+
+main{
+    width: 1010px;
+    margin: auto;
+}
+
+footer{
+    width: 1010px;
+    margin: auto;
+}
