@@ -18,6 +18,7 @@ body{
     bottom: 5px;
 }
 
+/* imposto le caratteristiche del titolo,sottotitoli,link */
 h1{
     margin-bottom: 1px;
 }
@@ -45,4 +46,25 @@ a{
 
 .sottolineato{
     background-color: yellow;
+}
+
+/* imposto le caratteristiche della tabella */
+table{
+    width: 1010px;
+    border-collapse: collapse;
+    table-layout:fixed
+}
+
+.riga-head{
+    color: white;
+    background-color: #039BE5;
+}
+
+tr{
+    text-align: left;
+    border: none;
+}
+
+.riga-blu{
+    background-color: #B3E5FC
 }
