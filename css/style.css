@@ -1,3 +1,7 @@
+body{
+    width: 1010px;
+}
+
 /* al div do l imm di sfondo con le relative caratteristiche */
 .testata{
     height: 100px;
@@ -12,4 +16,33 @@
     width: 10%;
     position: absolute;
     bottom: 5px;
+}
+
+h1{
+    margin-bottom: 1px;
+}
+
+.sottotitolo{
+    color: gray;
+    display: block;
+}
+
+.sottotitolo2{
+    color: gray;
+    display: block;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.img-description{
+    display: block;
+    font-size: small;
+}
+
+.sottolineato{
+    background-color: yellow;
 }
