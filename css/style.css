@@ -14,9 +14,8 @@ body{
 /* posiziono correttamente il logo */
 .logo1{
     width: 20%;
-    position: absolute;
-    bottom: 10px;
-    left: 5px;
+    padding-left: 10px;
+    padding-top: 40px;
 }
 
 /* imposto le caratteristiche del titolo,sottotitoli,link */
@@ -80,7 +79,7 @@ h3{
     height: 150px;
     background-image: url(../img/monitor.jpg);
     margin-bottom: 10px;
-    position: relative;
+    padding-top: 10px;
 }
 
 .img-finale2{
@@ -88,13 +87,11 @@ h3{
     height: 150px;
     background-image: url(../img/graph.jpg);
     margin-bottom: 20px;
-    position: relative;
+    padding-top: 10px;
 }
 
 .testo-img-finale{
     color: white;
-    position: absolute;
-    left: 10px;
-    top: 10px;
     font-weight: bold;
+    padding-left: 15px;
 }
